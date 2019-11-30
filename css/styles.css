@@ -1,3 +1,109 @@
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  font-size: 0.8rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  line-height:
+}
+
+.logo-img {
+  display: block;
+  width: 12%;
+  padding: 3% 4% 5%;
+}
+
+.illustration-img {
+  padding: 0 4%;
+  width: 50%;
+  height: 80%;
+}
+
+.intro {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding-top: 3%;
+}
+
+.intro-desc {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.5rem 3rem;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  border-radius: 1.5rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: hsl(280, 40%, 55%);
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  margin: 2% 3%;
+  width: 10%;
+  justify-content: space-between;
+  position: relative;
+  left: 80%;
+
+}
+
 .social-network-icon {
   width: 24px;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}
+
+@media only screen and (max-width: 880px){
+  body {
+    background-image: url(../images/bg-mobile.svg);
+  }
+
+  .logo-img {
+    width: 25%;
+  }
+
+  .illustration-img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .intro {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25%;
+  }
+  .btn {
+    padding: 0.5rem 4rem;  
+  }
+
+  .social-icons {
+    width: 25%;
+    margin: 20% auto;
+    position:  static;
+  }
 }
